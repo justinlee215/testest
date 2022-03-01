@@ -1,0 +1,54 @@
+.container {
+    margin-bottom: 130px;
+  }
+  
+  .header {
+    align-items: center;
+    padding: 0 0 0 1rem;
+  }
+  
+  .backToHome {
+    padding: 2rem;
+    position: absolute;
+    left: 5rem;
+  }
+
+  .logo {
+    padding: 1rem;
+    /* background-color: aqua; */
+  }
+
+  .blueBackgroundImage {
+    max-height: 250px;
+    overflow: hidden;
+    /* background-color: bisque; */
+    /* height: 200px; */
+  }
+
+  .footer {
+    margin: 1rem 0 0 0;
+    padding: 0rem;
+    background-color: rgba(245, 245, 245, 0.993);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    width: 100%;
+    text-align: center;
+    
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
+  @media only screen and (max-width: 670px) {
+    .backToHome {
+      left: 1rem;
+      top: 1rem;
+      padding: 0;
+    }
+
+    .footer {
+      /* background-color: lightblue; */
+    }
+  }

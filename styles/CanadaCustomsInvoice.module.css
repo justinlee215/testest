@@ -1,0 +1,9 @@
+.container {
+    padding: 0 2rem;
+    background-color: "blue";
+  }
+
+  .title {
+      background-color: "blue";
+      font-size: 2rem;
+  }
